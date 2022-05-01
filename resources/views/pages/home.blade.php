@@ -54,7 +54,7 @@
             </p>
         </div>
 
-        <a target="_self" href="{{ route('index.menu') }}" class="button button-blue button-xs button-full uppercase ultrabold half-top">Masuk</a>
+        <a  href="{{ route('index.menu') }}" class="button button-blue button-xs button-full uppercase ultrabold half-top">Masuk</a>
 
 
         <div class="decoration"></div>
