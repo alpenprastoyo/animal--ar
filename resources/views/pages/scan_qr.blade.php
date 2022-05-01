@@ -47,6 +47,8 @@
                     // .. use this to start scanning.
                 }
 
+                alert(cameraId);
+
                 const html5QrCode = new Html5Qrcode( /* element id */ "qr-reader");
 
                 html5QrCode.start(
