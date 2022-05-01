@@ -44,6 +44,8 @@
                  * devices would be an array of objects of type:
                  * { id: "id", label: "label" }
                  */
+                alert('sad');
+                
                 if (devices && devices.length) {
                     var cameraId = devices[devices.length-1].id;
                     // .. use this to start scanning.
