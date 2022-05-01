@@ -6,6 +6,8 @@
 @section('custom-js')
     <script type="text/javascript" src="https://unpkg.com/html5-qrcode@2.2.1/html5-qrcode.min.js"></script>
     <script>
+        alert('coba');
+
         function docReady(fn) {
             // see if DOM is already available
             if (document.readyState === "complete" ||
