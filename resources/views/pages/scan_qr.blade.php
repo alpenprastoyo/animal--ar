@@ -18,7 +18,7 @@
             // document.querySelector('body').appendChild(aChild);
         }
     };
-    new WebCodeCamJS("canvas").init(arg).play();
+    new WebCodeCamJS("canvas").buildSelectMenu('#camera-select', 'environment|back').init(args).play();
 </script>
 @endsection
 
