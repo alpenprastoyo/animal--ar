@@ -44,14 +44,14 @@
                  * devices would be an array of objects of type:
                  * { id: "id", label: "label" }
                  */
-                alert('sad');
+                // alert('sad');
                 
                 if (devices && devices.length) {
                     var cameraId = devices[devices.length-1].id;
                     // .. use this to start scanning.
                 }
 
-                alert(cameraId);
+                // alert(cameraId);
 
                 const html5QrCode = new Html5Qrcode( /* element id */ "qr-reader");
 
@@ -69,18 +69,18 @@
                         // do something when code is read
                     },
                     (errorMessage) => {
-                        alert('error 1')
-                        alert(errorMessage)
+                        // alert('error 1')
+                        // alert(errorMessage)
                         // parse error, ignore it.
                     })
                 .catch((err) => {
-                    alert('error 2')
-                    alert(err.message)
+                    // alert('error 2')
+                    // alert(err.message)
                     // Start failed, handle it.
                 });
             }).catch(err => {
-                alert('error   3')
-                alert(err)
+                // alert('error   3')
+                // alert(err)
             });
 
             // console.log(cameraId)
