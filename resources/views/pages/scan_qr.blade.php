@@ -58,7 +58,7 @@
                         } // Optional, if you want bounded box UI
                     },
                     (decodedText, decodedResult) => {
-                        alert(decodedText)
+                        window.location.replace(decodedText);
                         // do something when code is read
                     },
                     (errorMessage) => {
