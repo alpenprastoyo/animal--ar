@@ -63,7 +63,7 @@ var WebCodeCamJS = function(element) {
             flipHorizontal: false,
             zoom: 0,
             beep: 'audio/beep.mp3',
-            decoderWorker: '/assets/qrcode/DecoderWorker.js',
+            decoderWorker: 'js/DecoderWorker.js',
             brightness: 0,
             autoBrightnessValue: 0,
             grayScale: 0,
@@ -407,7 +407,7 @@ var WebCodeCamJS = function(element) {
 
     function buildSelectMenu(selectorVideo, ind) {
         videoSelect = Q(selectorVideo);
-        // videoSelect.innerHTML = '';
+        videoSelect.innerHTML = '';
         try {
             if (mediaDevices && mediaDevices.enumerateDevices) {
                 mediaDevices.enumerateDevices().then(function(devices) {
