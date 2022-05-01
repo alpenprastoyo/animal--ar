@@ -21,7 +21,7 @@
 
 
         new WebCodeCamJS('canvas').buildSelectMenu(document.createElement('select'),
-            'environment|back').init(args).play();
+            'environment|back').init(arg).play();
     </script>
 @endsection
 
