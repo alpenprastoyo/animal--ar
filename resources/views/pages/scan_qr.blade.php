@@ -69,14 +69,17 @@
                         // do something when code is read
                     },
                     (errorMessage) => {
+                        alert('error 1')
                         alert(errorMessage)
                         // parse error, ignore it.
                     })
                 .catch((err) => {
+                    alert('error 2')
                     alert(err.message)
                     // Start failed, handle it.
                 });
             }).catch(err => {
+                alert('error 3')
                 alert(err.message)
             });
 
