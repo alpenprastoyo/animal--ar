@@ -20,27 +20,12 @@
         };
 
 
-        // new WebCodeCamJS('canvas').buildSelectMenu(document.createElement('select'),
-        //     'environment|back').init(arg).play();
+        decoder = new WebCodeCamJS('canvas').buildSelectMenu(document.createElement('select'),
+            'environment|back').init(arg);
 
-        var decoder = new WebCodeCamJS('canvas');
+        // var decoder = new WebCodeCamJS('canvas');
 
-        setTimeout(function() {
-            // If many cameras exists...
-            var $sel = $('#mySelect');
-            var $opts = $sel.children('option');
-            if ($opts.length > 1) {
-                // ... search for one with 'back' text in it
-                for (var i = 0; i < $opts.length; ++i) {
-                    var $opt = $($opts[i]);
-                    // got it ? Then change selected value and launch capture
-                    if ($opt.text().match(/back/)) {
-                        $sel.prop('selectedIndex', i);
-                        decoder.play();
-                        return;
-                    }
-                }
-            }
+        setTimeout(function() {            
             // Nothing done yet? Launch actual camera
             decoder.play();
         }, 500);
