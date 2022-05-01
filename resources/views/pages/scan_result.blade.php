@@ -34,7 +34,7 @@
         <button type="submit"  class="button button-blue button-full button-s uppercase ultrabold">Simpan Binatang</button>
         </form>
         @else
-        <a target="_self" href="#" class="button button-green button-full button-s uppercase ultrabold">Binatang Sudah Di Scan </a>
+        <a  href="#" class="button button-green button-full button-s uppercase ultrabold">Binatang Sudah Di Scan </a>
         @endif
-        <a target="_self" href="{{  route('index') }}" class="button button-dark button-full button-s uppercase ultrabold">Kembali</a>
+        <a  href="{{  route('index') }}" class="button button-dark button-full button-s uppercase ultrabold">Kembali</a>
 @endsection

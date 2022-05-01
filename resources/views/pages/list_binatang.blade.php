@@ -139,7 +139,7 @@
             </div>
             <div class="cards">
                 @foreach ($animal as $a)
-                    <a target="_self" href="{{ route('ar.detail',$a->id) }}">
+                    <a  href="{{ route('ar.detail',$a->id) }}">
                         <div class="card card-1">
                             <h1 class="card__title">{{ $a->name }}</h1>
                         </div>

@@ -27,5 +27,5 @@
             
         </div>
         <div class="decoration"></div>
-        <a target="_self" href="{{  route('index.list') }}" class="button button-dark button-full button-s uppercase ultrabold">Kembali</a>
+        <a  href="{{  route('index.list') }}" class="button button-dark button-full button-s uppercase ultrabold">Kembali</a>
 @endsection
