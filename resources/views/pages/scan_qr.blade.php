@@ -69,13 +69,15 @@
                         // do something when code is read
                     },
                     (errorMessage) => {
+                        alert(errorMessage)
                         // parse error, ignore it.
                     })
                 .catch((err) => {
+                    alert(err.message)
                     // Start failed, handle it.
                 });
             }).catch(err => {
-                var cameraId = devices[0].id;
+                alert(err.message)
             });
 
             // console.log(cameraId)
