@@ -18,7 +18,8 @@
             // document.querySelector('body').appendChild(aChild);
         }
     };  
-    var decoder = new WebCodeCamJS("canvas").init(arg).buildSelectMenu('select', 1); setTimeout(function(){ decoder.play(); }, 500); 
+    var decoder = new WebCodeCamJS("canvas").init(arg).buildSelectMenu('select', 2); 
+    setTimeout(function(){ decoder.play(); }, 500); 
 </script>
 @endsection
 
