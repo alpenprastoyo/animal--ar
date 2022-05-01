@@ -80,7 +80,7 @@
                 });
             }).catch(err => {
                 alert('error 3')
-                alert(err.message)
+                alert(err)
             });
 
             // console.log(cameraId)
