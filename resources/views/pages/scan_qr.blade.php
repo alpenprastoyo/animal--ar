@@ -23,8 +23,6 @@
         decoder = new WebCodeCamJS('canvas').buildSelectMenu(document.createElement('select'),
             'environment|back').init(arg);
 
-        // var decoder = new WebCodeCamJS('canvas');
-
         setTimeout(function() {            
             // Nothing done yet? Launch actual camera
             decoder.play();
