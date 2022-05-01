@@ -138,12 +138,12 @@
                 <p class="heading__credits">Main Menu</p>
             </div>
             <div class="cards">
-                <a target="_self" href="{{ route('index.list') }}">
+                <a  href="{{ route('index.list') }}">
                     <div class="card card-1">
                         <h1 class="card__title">List Animal</h1>
                     </div>
                 </a>
-                <a target="_self" href="{{ route('index.scanqr') }}">
+                <a  href="{{ route('index.scanqr') }}">
                     <div class="card card-2">
                         <h1 class="card__title">Scan Animal</h1>
                     </div>
