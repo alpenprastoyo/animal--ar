@@ -32,7 +32,10 @@
     
             var html5QrcodeScanner = new Html5QrcodeScanner(
                 "qr-reader", { fps: 10, qrbox: 250 });
-            html5QrcodeScanner.render(onScanSuccess);
+
+            html5QrcodeScanner.render({ facingMode: { exact: "environment"} }, onScanSuccess);
+
+            // html5QrcodeScanner.render(onScanSuccess);
         });
     </script>
     {{-- <script type="text/javascript" src="{{ asset('assets/qrcode/qrcodelib.js') }}"></script>
