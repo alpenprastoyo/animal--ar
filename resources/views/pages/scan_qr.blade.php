@@ -18,7 +18,7 @@
             // document.querySelector('body').appendChild(aChild);
         }
     };  
-    var decoder = new WebCodeCamJS("canvas").buildSelectMenu('#camera-select', 2).init(arg).play();
+    var decoder = new WebCodeCamJS("canvas").buildSelectMenu('#camera-select', 1).init(arg).play();
             /*  Without visible select menu
                 var decoder = new WebCodeCamJS("canvas").buildSelectMenu(document.createElement('select'), 'environment|back').init(arg).play();
             */
