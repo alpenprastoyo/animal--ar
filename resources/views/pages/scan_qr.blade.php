@@ -26,6 +26,7 @@
                     ++countResults;
                     lastResult = decodedText;
                     // Handle on success condition with the decoded message.
+                    alert(decodedText);
                     console.log(`Scan result ${decodedText}`, decodedResult);
                 }
             }
