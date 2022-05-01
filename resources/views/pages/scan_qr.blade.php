@@ -111,7 +111,7 @@
         <div class="container">
             <div class="polaroid-effect half-bottom">
                 {{-- <canvas></canvas> --}}
-                <div id="qr-reader" style="height:300px"></div>
+                <div id="qr-reader" style="height:400px"></div>
             </div>
             <h1 class="text-shadow page-heading"><i class="fa fa-arrow-circle-o-right"></i>Silahkan Scan QR Code</h1>
 
