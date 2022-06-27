@@ -10,26 +10,25 @@
     <div class="main">
         <div class="home-slider owl-carousel polaroid-effect">
             <div class="item">
-                <img class="owl-lazy" data-src="{{ asset('assets/mobile/images/pictures/8.jpg') }}" alt="">
-                <em>Meet Moderner 2.0</em>
+                <img class="owl-lazy" data-src="{{ asset('assets/image/animal.jpg') }}" alt="">
+                <em>Animal AR</em>
             </div>
             <div class="item">
-                <img class="owl-lazy" data-src="{{ asset('assets/mobile/images/pictures/9.jpg') }}" alt="">
-                <em>Updated and Ready for New Life</em>
+                <img class="owl-lazy" data-src="{{ asset('assets/image/animal.jpg') }}" alt="">
+                <em>Animal AR</em>
             </div>
             <div class="item">
-                <img class="owl-lazy" data-src="{{ asset('assets/mobile/images/pictures/10.jpg') }}" alt="">
-                <em>Faster and More Powerful Than Ever</em>
+                <img class="owl-lazy" data-src="{{ asset('assets/image/animal.jpg') }}" alt="">
+                <em>Animal AR</em>
             </div>
         </div>
 
         <h5 class="home-intro">
-            MODERNER IS AS THE NAME SAYS A <br>
-            MODERN CLEAN AND BEAUTIFUL INTERFACE!
+           SELAMAT DATANG DI APLIKASI EDUKASI HEWAN
         </h5>
 
         <div class="decoration"></div>
-
+{{--
         <div class="icon-left-column">
             <i class="fa fa-refresh fa-3x"></i>
             <h4>Cross Compatibility</h4>
@@ -52,7 +51,7 @@
             <p>
                 There's nothing complicated about Moderner. We documented it for everyone to use.
             </p>
-        </div>
+        </div> --}}
 
         <a href="{{ route('index.menu') }}" class="button button-blue button-xs button-full uppercase ultrabold half-top">Masuk</a>
 
